@@ -1,6 +1,6 @@
 rootProject.name = 'hexagonal-demo'
 include(':core')
 include(':adapter:db')
-include(':adapter:mailer')
 include(':adapter:rest')
-include(':application:write')
+include(':application:command')
+include(':application:read')

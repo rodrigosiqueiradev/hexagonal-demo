@@ -1,12 +1,15 @@
-# Project exclude paths
+*.class
+
+*.jar
+
 .idea
-/.gradle/
-/adapter/db/build/
-/adapter/db/build/classes/java/main/
-/adapter/mailer/build/
-/adapter/rest/build/
-/adapter/rest/build/classes/java/main/
-/application/write/build/
-/application/write/build/classes/java/main/
-/core/build/
-/core/build/classes/java/main/
+*.iml
+target
+
+.gradle
+**/build/
+!src/**/build/
+
+!gradle-wrapper.jar
+
+!gradle-wrapper.properties
